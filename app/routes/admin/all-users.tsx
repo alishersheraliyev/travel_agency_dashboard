@@ -1,5 +1,15 @@
+import { Header } from 'components';
+
 const AllUsers = () => {
-  return <div>All Users Table</div>;
+  return (
+    <main className='dashboard wrapper'>
+      <Header
+        title='All Users'
+        description='Check out our users in real time'
+      />
+      All Users Page Content
+    </main>
+  );
 };
 
 export default AllUsers;
